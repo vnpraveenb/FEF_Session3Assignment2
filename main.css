@@ -1,0 +1,43 @@
+body{
+    background-image: url(img/2755.jpg) ;/* Sets the background image */
+ }
+
+div p {
+    overflow-y:scroll; /* Sets the vertical scrollbar for the paragraph in div.  */
+}
+
+/* However in this case, I am not able to get rid of the vertical scrollbar of the browser and enable the scrollbar for the praragraph. Please let me know the solution to this */ 
+
+li {
+    list-style: none; 
+    display: inline; /* Displays list elements beside each other */
+    margin: 0px;
+}
+
+hr{
+    color: darkblue;
+}
+h1{
+    color:darkslateblue;
+    ;
+}
+
+a {
+    color:blueviolet;
+    font-family:'Lucida Sans', 'Lucida Sans Bold'; /*Sets the font of the navigation menu items */
+    font-weight:bold; /* The font of the navigation menu items will be in bold */
+    text-decoration:none;   
+    text-align:center;
+    padding:0px 20px 0px 20px; /* sets the spaces between the navigation menu items */
+    
+}
+
+a:hover{
+    background-color:lavender; /* Displays background color when mouse hovers over a menu item */
+    font-weight:bolder;
+    padding-top:15px;      /*Sets the top distance of the background color of the menu item from the text content */
+    padding-bottom:15px;   /*Sets the bottom distance of the background color of the menu item from the text content*/
+ }
+
+
+ 
